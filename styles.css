@@ -1,0 +1,23 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  background: #222;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+}
+
+#gameCanvas {
+  display: block;
+  margin: 0 auto;
+  background: #87CEEB; /* sky blue */
+}
+
+#message {
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  text-shadow: 0 0 10px black;
+}
